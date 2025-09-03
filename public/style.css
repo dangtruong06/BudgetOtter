@@ -16,16 +16,25 @@
 }
 
 span{
-    color: var(--lighterBlue)
+    color: var(--lighterBlue);
+}
+
+span:hover{
+    display:inline-block; 
+    transform:scale(1.1);
+    transition: 0.2s ease-in-out;
+    border-bottom: 2px solid var(--lighterBlue)
+
 }
 
 body{
-    background: linear-gradient(to left, var(--blue), blue) ;
+    background: linear-gradient(to right, var(--blue), blue) ;
 }
 
 section{
     min-height: 100vh;
     padding: 5% 10%;
+    border: 2px solid white;
 }
 
 #home{  /*Home is the section*/
@@ -47,6 +56,7 @@ section{
     gap: 3em
     
 }
+
 div a{
     font-size: 3em;
     font-weight: bold;
@@ -58,7 +68,6 @@ div a{
     font-size: 4em;
     color: white
 }
-
 
 .title-box{
     max-width: 60%;
@@ -94,16 +103,22 @@ div a{
 }
 
 .bx:hover{
-    color: blue;
+    color: var(--lighterBlue);
     transition: 0.2s ease-in-out;
 }
 
 .bx:active{
     color: white
-    
+
 }
 
 #downArrow{
     position:relative;
     
+}
+
+.paws{
+    position: absolute;
+    color: white;
+    font-size: 4em;
 }
