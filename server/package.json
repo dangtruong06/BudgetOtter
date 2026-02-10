@@ -1,0 +1,27 @@
+{
+  "name": "budgetotter",
+  "version": "1.0.0",
+  "description": "Web app to make tracking expenses simple, clear, and stress-free for everyone.",
+  "homepage": "https://github.com/dangtruong06/BudgetOtter#readme",
+  "bugs": {
+    "url": "https://github.com/dangtruong06/BudgetOtter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangtruong06/BudgetOtter.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.0",
+    "nodemon": "^3.1.11"
+  }
+}
